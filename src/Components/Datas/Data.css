@@ -1,0 +1,42 @@
+.data {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 20px 20px;
+  background-color: rgb(198, 235, 250);
+}
+.data:hover {
+  box-shadow: 10px 10px #88888852;
+}
+.data img {
+  width: 100%;
+  height: 45%;
+  border-radius: 8px;
+}
+.data h2 {
+  text-align: center;
+  margin: 10px;
+}
+
+button {
+  width: 100%;
+  font-family: "Josefin Sans", sans-serif;
+  background-color: rgb(124, 124, 241);
+  color: aliceblue;
+  font-size: large;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+}
+button:hover {
+  background-color: rgb(54, 109, 157);
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .datas p {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .datas {
+    margin: 10px;
+  }
+}
